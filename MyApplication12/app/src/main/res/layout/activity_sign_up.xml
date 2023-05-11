@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="66dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/____12__2_5________2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="64dp"
+        android:text="Регистрация"
+        android:textColor="#2E2D2D"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="12dp"
+        android:text="помощь"
+        android:textColor="#2E2D2D"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="вход"
+        android:textColor="#2E2D2D"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="341dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="24dp"
+        android:layout_height="23dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:srcCompat="@drawable/baseline_help_outline_24"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/baseline_add_circle_outline_24"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:srcCompat="@drawable/baseline_account_circle_24"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="329dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="146dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Введите ваше имя"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="329dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Введите ваш контактный номер"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="329dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Введите вашу фамилию"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="327dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="33dp"
+        android:text="зарегистрироваться"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
+        tools:layout_editor_absoluteX="27dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="322dp"
+        android:layout_height="53dp"
+        android:text="Согласен(-а) с условиями использования  и политикой конфидециальности"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="619dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
